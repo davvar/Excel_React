@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Delete, ExitToApp } from '@material-ui/icons';
 
@@ -11,7 +11,7 @@ const Header: React.SFC<HeaderProps> = () => {
     return (
         <div className="excel__header">
 
-            <input type="text" className="input" value="Новая таблица" />
+            <input type="text" className="input" defaultValue="Новая таблица" />
 
             <div>
 
@@ -26,7 +26,7 @@ const Header: React.SFC<HeaderProps> = () => {
             </div>
 
         </div>
-    )
-}
+    );
+};
 
 export default Header;

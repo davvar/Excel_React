@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Header from '../components/header/HeaderComponent';
 import Toolbar from '../components/toolbar/ToolbarComponen';
 import Formula from '../components/formula/FormulaComponen';
@@ -9,7 +9,7 @@ export interface ExcelPageProps {
 
 }
 
-const ExcelPage: React.SFC<ExcelPageProps> = () => {
+const ExcelPage: React.FC<ExcelPageProps> = () => {
     return (
         <div className="excel">
             <Header />
@@ -18,6 +18,6 @@ const ExcelPage: React.SFC<ExcelPageProps> = () => {
             <Table />
         </div>
     );
-}
+};
 
 export default ExcelPage;
